@@ -33,25 +33,32 @@ You can install the required libraries using the following command:
 
 ```bash
 pip install pandas matplotlib seaborn sklearn imblearn pickle json
+```
 
 Running the Scripts
+
 To run this project, clone the repo and execute the main script:
 
-bash
-Copy code
+```bash
 git clone <repo-url>
 cd Credit-Card-Fraud-Management-System
 python main.py
+```
 
-Models Used
-Random Forest Classifier
-Logistic Regression
-Gaussian Naive Bayes
-K-Nearest Neighbors
-Voting Classifier (Ensemble)
-Key Findings
-Fraud Detection Accuracy: Achieved an accuracy of approximately 99.48%.
-Key Features: The transaction amount showed a significant correlation with the fraud label, indicating its importance in the detection process.
-Data Imbalance: Addressed using SMOTE to oversample the minority class in the training data.
-Contributing
+## Models Used
+
+- **Random Forest Classifier**
+- **Logistic Regression**
+- **Gaussian Naive Bayes**
+- **K-Nearest Neighbors**
+- **Voting Classifier** (Ensemble)
+
+## Key Findings
+
+- **Fraud Detection Accuracy:** Achieved an accuracy of approximately 99.48%.
+- **Key Features:** The transaction amount showed a significant correlation with the fraud label, indicating its importance in the detection process.
+- **Data Imbalance:** Addressed using SMOTE to oversample the minority class in the training data.
+
+## Contributing
+
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your enhancements.
