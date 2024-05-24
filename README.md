@@ -18,8 +18,10 @@ Welcome to the Credit Card Fraud Management System repository! This project util
 This project's repository is organized into directories and files that are structured for easy navigation and use. Here’s a detailed breakdown:
 
   - `code.py`: Python script for the main processing and modeling tasks performed in February.
-  - `fraudTest.csv`: CSV file with test data for evaluating the fraud detection model.
+  - `fraudTest.csv`:  CSV file with test data for evaluating the fraud detection model.
   - `fraudTrain.csv`: CSV file containing training data for the fraud detection model.
+
+Please reach out to me for the datasets. Dataset file is very large.
 
 ## Getting Started
 
